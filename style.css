@@ -1,0 +1,349 @@
+body{
+    width: 100%;
+    height: 100%;
+}
+
+.topo{
+    position: relative;
+    display:flex;
+    flex-direction: row;
+    justify-content: right;
+    top: 45px;
+}
+
+.topo h3{
+    font-family: "Open Sans";
+    font-style: normal;
+    font-size: 24px;
+    line-height: 33px;
+    color: #777777
+}
+
+#categoria1{
+    margin-right: 50px;
+}
+
+#categoria2{
+    margin-right: 50px;
+}
+
+#categoria3{
+    margin-right: 50px;
+}
+
+#logo{
+    position: absolute;
+    display: flex;
+    justify-content: left;
+    left: 30px;
+    top: 45px;
+}
+
+#rodape {
+    position: relative;
+    width: 100%;
+    top: 100px;
+    right: 8px;
+}
+
+.container{
+    text-align: center;
+}
+#msg {
+    position: relative;
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+    display: flex;
+    justify-content: center;
+    top: 127px;
+    font-size: 55;
+    font-weight: 800;
+}
+#modelo-jeans {
+    position: absolute;
+    height: 757.94px;
+    width: 600px;
+    right: 400px;
+    top: 80%;
+    
+}
+
+#modelo-saia {
+    position: absolute;
+    height: 600px;
+    width: 400px;
+    left: 445px;
+    top: 89%;
+}
+
+.catalogo{
+    position: absolute;
+    display: block;
+    position: absolute;
+    background: #C2185B;
+    width: 100%;
+    height: 652px;
+    left: 0px;
+    top: 0px;
+    justify-content: center;
+    z-index: -1;
+}
+
+.descontos {
+    position: absolute;
+    width: 100%;
+    height: 662px;
+    top: 1800px;
+    right: 8px;
+    justify-content: center;
+}
+
+#desconto{
+    font-family: Open Sans;
+    font-size: 60px;
+    font-weight: 800;
+    line-height: 60px;
+    color: white;
+}
+
+#produto1{
+    margin-right: 13px;
+    
+}
+
+#produto2{
+    margin-right: 13px;
+}
+
+#produto3{
+    margin-right: 13px;
+}
+
+#produto4{
+    
+}
+
+.sapatos{
+    position: absolute;
+    width: 100%;
+    height: 388px;
+    justify-content: center;
+}
+
+.sapatos span{
+    display: box;
+    position: absolute;
+    width: 260px;
+    height: 388px;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.25);  
+}
+
+
+.box1{
+    display: box;
+    position: absolute;
+    width: 260px;
+    height: 388px;
+    background: white;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.25);  
+    top: 1353px;
+    left: 390px;
+    z-index: -1;
+}
+
+.box2{
+    display: box;
+    position: absolute;
+    width: 260px;
+    height: 388px;
+    background: white;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.25);  
+    top: 1353px;
+    left: 667px;
+    z-index: -1;
+}
+
+.box3{
+    display: box;
+    position: absolute;
+    width: 260px;
+    height: 388px;
+    background: white;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.25);  
+    top: 1353px;
+    left: 944px; 
+    z-index: -1;
+}
+
+.box4{
+    display: box;
+    position: absolute;
+    width: 260px;
+    height: 388px;
+    background: white;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.25);  
+    top: 1353px;
+    left: 1221px;
+    z-index: -1;
+}
+
+#info1 {
+    width: 260px;
+    position: absolute;
+    top: 1650px;
+    left: 400px;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(0, 0, 0, 1)
+}
+
+#info2 {
+    width: 260px;
+    position: absolute;
+    top: 1650px;
+    left: 678px;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(0, 0, 0, 1)
+}
+
+#info3 {
+    width: 260px;
+    position: absolute;
+    top: 1650px;
+    left: 958px;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(0, 0, 0, 1)
+}
+
+#info4 {
+    width: 260px;
+    position: absolute;
+    top: 1650px;
+    left: 1230px;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(0, 0, 0, 1)
+}
+
+#titulo-sandalia {
+    font-family: Open Sans;
+    font-size: 39px;
+    font-weight: 600;
+    line-height: 53px;
+    letter-spacing: 0em;
+    text-align: left;
+    position: absolute;
+    bottom: -1800px;
+    left: 400px;
+}
+
+.pinks{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    width: 403px;
+    height: 120px;
+    left: 400px;
+    top: 2160;
+    background: #C2185B;
+}
+
+#detalhes{
+    font-family: Open Sans;
+    font-size: 39px;
+    font-weight: 600;
+    text-align: center;
+    color: white;
+}
+
+#look-completo{
+    position: absolute;
+    top: 2047px;
+    right: 440px;
+}
+
+#look-sandalia{
+    position: absolute;
+    top: 2325px;
+    left: 400;
+}
+
+footer{
+    position: absolute;
+    left: 0;
+    top: 3700px;
+    width: 100%;
+    height: 300px;
+    background: #C2185B;
+}
+
+#logo-final{
+    position: absolute;
+    left: 180px;
+    top: 35px;
+    height: 150px;
+    width: 280px;
+}
+
+#paragrafo{
+position: absolute;
+left: 182px;
+top: 140px;
+color: white;
+font-family: 'Open Sans';
+}
+
+.categorias{
+    position: absolute;
+    list-style: none;
+    cursor: pointer;
+    left: 900px;
+    top: 60px;
+    color: white;
+    font-family: 'Open Sans';
+    font-size: 20px;
+    font-weight: 400 ;
+    
+}
+
+.categorias li a{
+    text-decoration: none;
+    color: white;
+    border-left: 500;
+}
+
+.institucional{
+    position: absolute;
+    list-style: none;
+    cursor: pointer;
+    left: 1200px;
+    top: 60px;
+    color: white;
+    font-family: 'Open Sans';
+    font-size: 20px;
+    font-weight: 400 ;
+}
+
+.institucional li a{
+    text-decoration: none;
+    color: white;
+    border-left: 500;
+}
